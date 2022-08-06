@@ -571,6 +571,13 @@ color: white;
   margin-left: 30px;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .pop-up-home .pop-up-ficture{
+    height: 98%!important;
+    width: 98%!important;
+  }
+}
 /*Pop Up Button Desplegable*/
 .pop-up-button-open {
   height: 20px;

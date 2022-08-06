@@ -178,18 +178,19 @@ function createMenu() {
   container.classList.add('close');
   container.innerHTML += `
     <div class="header-menu">
-      <img src="./assets/img/iconos/cerrar.svg" onclick="closeMenu()"/>
+      <img src="./assets/img/iconos/cerrar-popup.svg" onclick="closeMenu()"/>
     </div>
     <div class="body">
       <div class="accessLink">
-        <img src="./assets/img/iconos/miscelaneas_h_1.svg"/>
+        <img src="./assets/img/iconos/miscelaneas-v-blanco.svg"/>
         <a class="item-link" href="./acercade.html">Acerca de Derivas Virtuales</a>
-        <a class="item-link" href="./navegacion.html">Mapa de Navegación</a>
+        <a class="item-link" href="./navegacion.html">Guía de navegación</a>
         <a class="item-link" href="https://drive.google.com/file/d/1QnO-wGAJE5Ypdm3wzGbDxyMZue0J71Qx/view" >Publicación</a>
+        <a class="item-link" href="#" >Lista de recorridos</a>
       </div>
     </div>
     <div class="footer">
-        <img src="./assets/img/iconos/miscelaneas_h_1.svg"/>
+        <img src="./assets/img/iconos/miscelaneas-v-blanco.svg"/>
         <p> Derivas Virtuales es parte del proyecto de investigación <br>
             UBATIC de Cátedra La Ferla, 2021-2022.</p>
         <div class="ig-link">

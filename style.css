@@ -9,10 +9,10 @@ body {
 }
 
 .titulo {
-  width: 12%;
+  width: 250px;
   position: fixed;
   margin: 2%  0 0 0;
-  padding-left: 3.5%;
+  padding-left: 2%;
   color: #f1f1f1;
   display: flex;
   align-items: start;
@@ -25,6 +25,14 @@ body {
 }
 .derivasMainLogo img {
   width: 100%;
+}
+
+@media(max-width: 787px) {
+  .derivasMainLogo img{
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 10px;
+  }
 }
 
 .button-menu {
@@ -87,7 +95,7 @@ span {
 }
 
 .header-menu img {
-  width: 6%;
+  width: auto;
   margin-right: 5%;;
 }
 
@@ -239,9 +247,9 @@ span {
 }
 
 .footer{
-  margin-top: 40%;
-  max-height: calc(100vh - 200px);
-  height: 20%;
+  position: absolute;
+  bottom: 19px;
+  width: 100%;
 }
 .footer img{
   width: 45%;
@@ -266,6 +274,7 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
 }
 .ig-link .ig-container img{
   width: 15%;
@@ -278,6 +287,7 @@ span {
   font-weight: normal;
   text-decoration: none;
   color: white;
+  padding-left: 10px;
 }
 
 /* FILTROS -------------------------------------------------------------------->*/
@@ -574,8 +584,35 @@ color: white;
 
 @media (max-width: 768px) {
   .pop-up-home .pop-up-ficture{
-    height: 98%!important;
-    width: 98%!important;
+    height: 95%!important;
+    width: 90%!important;
+  }
+
+  .pop-up-home .pop-up-ficture .pop-up-title{
+    margin: 25px 0px 0px 0px ;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+  }
+  .pop-up-home .pop-up-ficture .btn-cerrar-popup{
+    position: relative;
+    left: 30px;
+    top:-10px;
+  }
+  .pop-up-home .pop-up-ficture p {
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    margin-top: 0px;
+  }
+  .pop-up-home .pop-up-ficture ul li {
+    font-size: 14px;
+  }
+  .pop-up-home .pop-up-ficture .txt-recordamos{
+    margin-top: 5px!important;
+    margin-bottom: 15px;
+    text-align: center!important;
+    font-size: 12px;
   }
 }
 /*Pop Up Button Desplegable*/

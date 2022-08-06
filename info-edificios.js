@@ -19,7 +19,7 @@ const info = {
     nombre: 'Museo Nacional de Bellas Artes',
     lugar: {
       barrio: 'Barrio',
-      ubicacion: 'Palermo'
+      ubicacion: 'Recoleta'
     },
     imagen: {
       src: "./assets/img/museos/bellasArtes.jpg",
@@ -68,7 +68,7 @@ const info = {
     texto: `Espacio-museo de la UNTREF (Universidad Nacional de Tres de Febrero), institución pública educativa que se ubica en la localidad bonaerense de Caseros, fuera de Capital Federal. Dispone de sedes en Sáenz Peña y en El Palomar, en el partido de Tres de Febrero, y está vinculado con el Hotel de Inmigrantes —en el barrio de Retiro— y con el Centro Cultural Borges. Es una universidad que presenta un proyecto académico, social y político amplio, considerando el servicio educativo pero también cultural. La sala expositiva es un espacio proyectado para exhibir arte moderno y contemporáneo, principalmente argentino; se vincula con proyectos de estudiantes y profesores de la misma institución, así como externos —de artistas nacionales e internacionales—, con el objetivo de lograr un alcance e impacto social con sus acciones.`,
   },
   'MUNTREF': {
-    categoria: 'Arquitecturas como proyecto',
+    categoria: 'Refuncionalizados',
     nombre: 'MUNTREF. Centro de Arte Contemporáneo',
     lugar: {
       barrio: 'Barrio',
@@ -119,7 +119,7 @@ const info = {
     texto: `Espacio de arte perteneciente a una antigua familia de empresarios, dueños de la compañía de cemento Loma Negra, emplazado en el contexto urbano de Puerto Madero. El proyecto nace a partir de una iniciativa privada en torno a la colección personal y se configuró como una «arquitectura de autor», en una alianza entre el arquitecto uruguayo Rafael Viñoly y la coleccionista-mecenas Amalia Fortabat. El objetivo era construir un espacio que se posicione como ícono dentro de la escena mediática local e internacional. Se planteó, así, un nuevo discurso e identidad para la colección, junto con una nueva forma de exhibirla. El espacio fue especialmente diseñado y construido para este fin. La arquitectura responde a criterios propios del contexto en que se emplaza, respetando la altura de la arquitectura inglesa de la zona, pero incorporando materialidades contemporáneas como acero y vidrio. A su vez, la configuración arquitectónica afecta el diseño expositivo, ya que, al momento de su construcción, no hubo una política museográfica, más allá de la colección. Esto da como resultado un espacio arquitectónico que se va transformando para poder albergar diferentes muestras temporales.`,
   },
   'CasaRosada': {
-    categoria: 'Arquitecturas como proyectos',
+    categoria: 'Refuncionalizados',
     nombre: 'Museo Casa Rosada',
     lugar: {
       barrio: 'Barrio',
@@ -132,7 +132,7 @@ const info = {
     texto: `Inaugurado en 2011 como Museo del Bicentenario —en el contexto de los festejos del Bicentenario realizados durante la presidencia de Cristina Fernández de Kirchner—, se emplaza sobre las ruinas de la antigua Aduana Taylor (1855) y sobre el Fuerte de Buenos Aires (siglo XVIII). Esto implica la recuperación y puesta en valor del patrimonio cultural e histórico integrado a las nuevas exigencias del contexto urbano contemporáneo. El diseño arquitectónico fue realizado por B4FS Arquitectos y supervisado por la Comisión Nacional de Museos, de Monumentos y de Lugares Históricos. En una primera etapa, el aspecto arqueológico entró en diálogo con un repertorio de obras de arte —con variedad de soportes plásticos y audiovisuales, como las obras de Alfredo Bettanin y Clorindo Testa o la reconstrucción del mural de Siqueiros, Ejercicio Plástico (1933)—, con una serie cronológica de documentales y con objetos y testimonios históricos de carácter «museable». Esta convivencia propuso una reinterpretación de los hechos objetivos que privilegiaron un relato heterogéneo, múltiple y desjerarquizado. Así, la puesta en escena museística se dispuso, en su origen, conforme a  una idea de resignificar el patrimonio arqueológico (con la presencia de materialidades originales) activado mediante una lectura contemporánea. En una segunda etapa —marcada por la asunción de Mauricio Macri— se reemplazaron las obras de arte, en su mayoría, por fotografías de archivo y por mayor presencia de objetos testimoniales pertenecientes a las diferentes presidencias argentinas.`,
   },
   'CCK': {
-    categoria: 'Arquitecturas como proyecto',
+    categoria: 'Refuncionalizados',
     nombre: 'Centro Cultural Kirchner',
     lugar: {
       barrio: 'Barrio',
@@ -225,8 +225,8 @@ const info = {
     texto: `Galería y sala de exposiciones de gestión privada inaugurada en 2015 con la inquietud de generar un espacio para la fotografía contemporánea fuera del ámbito comercial. Cuenta con una colección de más de 300 obras de unos 130 artistas de la región latinoamericana. Como programa expositivo, se exhiben obras de colecciones personales y piezas a partir de convenios con otras instituciones, así como se curan exposiciones temporales con el objetivo de cubrir un programa anual de siete a diez proyectos. La gestión institucional contempla muestras, premios, publicaciones y festivales, entre otras actividades, así como ventas y exposiciones de fotografías de los socios de la institución. Se ubica en el barrio de Palermo, en un antiguo terreno público vendido al proyecto comercial Distrito Arcos.`,
   },
   'MAMBA': {
-    categoria: 'Arquitecturas como proyecto',
-    nombre: 'Muse de arte moderno de buenos aires',
+    categoria: 'Refuncionalizados',
+    nombre: 'Museo de arte moderno de buenos aires',
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'San Telmo'
@@ -265,7 +265,7 @@ const info = {
   },
   'RolfArt': {
     categoria: 'Fundaciones y Galerías',
-    nombre: 'Galería Rolf Art',
+    nombre: 'Rolf Art',
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Retiro'

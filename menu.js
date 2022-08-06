@@ -186,7 +186,7 @@ function createMenu() {
         <a class="item-link" href="./acercade.html">Acerca de Derivas Virtuales</a>
         <a class="item-link" href="./navegacion.html">Guía de navegación</a>
         <a class="item-link" href="https://drive.google.com/file/d/1QnO-wGAJE5Ypdm3wzGbDxyMZue0J71Qx/view" >Publicación</a>
-        <a class="item-link" href="#" >Lista de recorridos</a>
+        <a class="item-link" href="https://www.google.com/maps/d/viewer?mid=1WOM4KNQ1tsVNz0DLBiwT999-XrZUqZeH&ll=-34.58979763575463%2C-58.46037369999999&z=12" >Lista de recorridos</a>
       </div>
     </div>
     <div class="footer">

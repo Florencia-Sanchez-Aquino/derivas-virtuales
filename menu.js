@@ -177,8 +177,8 @@ function createMenu() {
   const container = document.getElementById('menu-container');
   container.classList.add('close');
   container.innerHTML += `
-    <div class="header-menu">
-      <img src="./assets/img/iconos/cerrar-popup.svg" onclick="closeMenu()"/>
+    <div class="header-menu" onclick="closeMenu()">
+      <img src="./assets/img/iconos/cerrar-popup.svg" />
     </div>
     <div class="body">
       <div class="accessLink">

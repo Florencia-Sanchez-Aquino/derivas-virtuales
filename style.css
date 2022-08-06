@@ -27,13 +27,7 @@ body {
   width: 100%;
 }
 
-@media(max-width: 787px) {
-  .derivasMainLogo img{
-    width: 100%;
-    margin-left: 15%;
-    margin-top: 10px;
-  }
-}
+
 
 .button-menu {
   font-size: 25px;
@@ -81,6 +75,12 @@ span {
   bottom: 0;
   z-index: 1;
 }
+@media (max-width: 768px) {
+  #menu-container {
+    width: 90%;
+
+  }
+}
 
 .close-button {
   transition: display 0.5s ease;
@@ -113,14 +113,14 @@ span {
   width: 0;
 }
 
-@media(max-width: 1440px) {
+/* @media(max-width: 1440px) {
   .body {
     max-height: 390px;
   }
   .footer {
     max-height: 390px;
   }
-}
+} */
 
 .open {
   transition: left 0.5s ease;

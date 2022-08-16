@@ -8,6 +8,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'La Boca'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/isla-flotante.jpg",
       autor: `Mariel Szlifman`
@@ -20,6 +24,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Recoleta'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       src: "./assets/img/museos/bellasArtes.jpg",
@@ -34,6 +42,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'San Nicolás'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/fundacion-osde-sede-anterior.jpg",
       autor: `Mariel Szlifman`
@@ -47,6 +59,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'La Boca'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/fundacion-proa.jpg", 
       autor: `Mariel Szlifman`
@@ -59,6 +75,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Caseros'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       vertical: true,
@@ -74,6 +94,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'Retiro'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/MUNTREFCentrodeArte.jpg",
       autor: `Ernesto Monasterio`
@@ -86,6 +110,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Palermo'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       src: "./assets/img/museos/malba.jpg",
@@ -112,6 +140,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'Puerto Madero'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/coleccion-de-arte-amalia-lacroze-de-fortabat.jpg",
       autor: `Mariel Szlifman`
@@ -124,6 +156,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Monserrat'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       src: "./assets/img/museos/museo-casa-rosada.jpg",
@@ -138,6 +174,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'San Nicolás'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/centro-cultural-kirchner.jpg",
       autor: `Ernesto Monasterio`
@@ -150,6 +190,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Recoleta'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       vertical: true,
@@ -165,6 +209,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'Nuñez'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/centro-cultural-de-la-memoria-haroldo-conti.jpg",
       autor: `Equipo CCMHC`
@@ -178,6 +226,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'Saavedra'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/museo-historico-cornelio-saavedra.jpg",
       autor: `Antonelia Adosi`
@@ -190,6 +242,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Recoleta'
+    },
+    web: {
+     sitioWeb: 'Sitio Oficial',
+      url: 'https://www.fundaciontelefonica.com.ar/'
     },
     imagen: {
       vertical: true,
@@ -205,6 +261,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'Nuñez'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/sala-de-exposiciones-fadu-ms.jpg",
       autor: `Mariel Szlifman`
@@ -217,6 +277,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Palermo'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       src: "./assets/img/museos/fola.jpg",
@@ -231,6 +295,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'San Telmo'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/museo-de-arte-moderno-de-buenos-aires.jpg",
       autor: `Jorge La Ferla`
@@ -243,6 +311,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Retiro'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       src: "./assets/img/museos/fundacion-osde-sede-actual.jpg",
@@ -257,6 +329,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'Belgrano'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/parque-de-la-memoria-cb.jpg",
       autor: `Celeste Bonzano`
@@ -269,6 +345,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'Retiro'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       src: "./assets/img/museos/galeria-rolf.jpg",
@@ -283,6 +363,10 @@ const info = {
       barrio: 'Barrio',
       ubicacion: 'Belgrano'
     },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
+    },
     imagen: {
       src: "./assets/img/museos/sala-pays.jpg",
       autor: `Mariel Szlifman`
@@ -295,6 +379,10 @@ const info = {
     lugar: {
       barrio: 'Barrio',
       ubicacion: 'San Nicolás'
+    },
+    web: {
+      sitioWeb: 'Sitio Oficial',
+      url: '#'
     },
     imagen: {
       src: "./assets/img/museos/teatro-san-martin.jpg",

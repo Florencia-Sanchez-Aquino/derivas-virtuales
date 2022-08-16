@@ -1,8 +1,7 @@
 .titulo {
   width: 250px;
   position: fixed;
-  margin: 2%  0 0 0;
-  padding-left: 2%;
+  margin: 2%  0 0 2%;
   color: #f1f1f1;
   display: flex;
   align-items: start;
@@ -63,14 +62,6 @@ span {
   position: fixed;
   bottom: 0;
   z-index: 1;
-}
-
-
-@media (max-width: 768px) {
-  #menu-container {
-    width: 90%;
-
-  }
 }
 
 .close-button {
@@ -287,15 +278,27 @@ span {
   margin-left: 15%;
 }
 
-.footer p {
+.footer .txt-footer {
   width: 75%;
   margin-left: 15%;
   font-family: 'Roboto';
   font-style: normal;
   font-size: 12px;
+  line-height: 18px;
   font-weight: normal;
   text-decoration: none;
   color: white;
+}
+.footer .ig-derivas{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+
 }
 
 .ig-link {
@@ -308,6 +311,7 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none!important;
 }
 
 .ig-link .ig-container img {
@@ -319,7 +323,16 @@ span {
   font-family: 'Roboto';
   font-style: normal;
   font-size: 12px;
+  line-height: 22px;
   font-weight: normal;
-  text-decoration: none;
   color: white;
+  padding-left: 12px;
+  margin: 0px;
+}
+
+
+.accessLink a:hover{
+  text-decoration: none!important;
+  color: #32C7A0;
+  
 }

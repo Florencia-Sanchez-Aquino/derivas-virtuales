@@ -30,7 +30,7 @@ const listEspacios = [
   },
   {
     template: `
-      <p>Arquitecturas como proyecto</p>
+      <p>Refuncionalizados</p>
       <img id="arquitecturas" src="./assets/img/iconos/encendido-amarillo.svg" />
     `,
     visible: true,
@@ -183,21 +183,21 @@ function createMenu() {
     <div class="body">
       <div class="accessLink">
         <img src="./assets/img/iconos/miscelaneas-v-blanco.svg"/>
-        <a class="item-link" href="./acercade.html">Acerca de Derivas Virtuales</a>
-        <a class="item-link" href="./navegacion.html">Guía de navegación</a>
-        <a class="item-link" href="https://drive.google.com/file/d/1QnO-wGAJE5Ypdm3wzGbDxyMZue0J71Qx/view" >Publicación</a>
-        <a class="item-link" href="https://www.google.com/maps/d/viewer?mid=1WOM4KNQ1tsVNz0DLBiwT999-XrZUqZeH&ll=-34.58979763575463%2C-58.46037369999999&z=12" >Lista de recorridos</a>
+        <a class="item-link" href="./acerca-de-derivas.html">Acerca de Derivas Virtuales</a>
+        <a class="item-link" href="./guia-navegacion.html">Guía de navegación</a>
+        <a class="item-link" href="https://drive.google.com/file/d/1QnO-wGAJE5Ypdm3wzGbDxyMZue0J71Qx/view" target="_blank">Publicación</a>
+        <a class="item-link" href="https://www.google.com/maps/d/viewer?mid=1WOM4KNQ1tsVNz0DLBiwT999-XrZUqZeH&ll=-34.58979763575463%2C-58.46037369999999&z=12"  target="_blank">Lista de recorridos</a>
       </div>
     </div>
     <div class="footer">
         <img src="./assets/img/iconos/miscelaneas-v-blanco.svg"/>
-        <p> Derivas Virtuales es parte del proyecto de investigación <br>
+        <p class="txt-footer"> Derivas Virtuales es parte del proyecto de investigación <br>
             UBATIC de Cátedra La Ferla, 2021-2022.</p>
         <div class="ig-link">
-          <a class="ig-container"  href="#" >
+          <a class="ig-container" href="https://www.instagram.com/derivasvirtuales/" target="_blank" >
             <img src="./assets/icons/ig-logo.png" alt="Instagram">
             <h3>@derivasvirtuales</h3>
-            <p>#derivasvirtuales</p>
+            <p class="ig-derivas">#derivasvirtuales</p>
           </a>          
         </div>
     </div>

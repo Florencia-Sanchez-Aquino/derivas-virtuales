@@ -1362,28 +1362,28 @@ const infoObras = {
 
 let obras = [
   {
-    url: './assets/models/infoObras/InfoObras_Vuelodepajaro.gltf',
+    url: './assets/models/InfoObras/InfoObras_Vuelodepajaro.gltf',
     nombre: 'InfoObras_Vuelodepajaro',
     isVisible: false,
     mouseInteractionAllowed: true,
     tipo: 'Flâneur'
   },
   {
-    url: './assets/models/infoObras/InfoObras_RecuerdosSuperpuestos.gltf',
+    url: './assets/models/InfoObras/InfoObras_RecuerdosSuperpuestos.gltf',
     nombre: 'InfoObras_RecuerdosSuperpuestos',
     isVisible: false,
     mouseInteractionAllowed: true,
     tipo: 'Flâneur'
   },
   {
-    url: './assets/models/infoExpo/InfoExpo_DianeArbus.gltf',
+    url: './assets/models/InfoExpo/InfoExpo_DianeArbus.gltf',
     nombre: 'InfoExpo_DianeArbus',
     isVisible: false,
     mouseInteractionAllowed: true,
     tipo: 'Flâneur'
   },
   {
-    url: './assets/models/infoObras/InfoObras_BuenosAiresTour.gltf',
+    url: './assets/models/InfoObras/InfoObras_BuenosAiresTour.gltf',
     nombre: 'InfoObras_BuenosAiresTour',
     isVisible: false,
     mouseInteractionAllowed: true,
@@ -1397,7 +1397,7 @@ let obras = [
     tipo: 'Flâneur'
   },
   {
-    url: './assets/models/infoObras/InfoObras_Roma.gltf',
+    url: './assets/models/InfoObras/InfoObras_Roma.gltf',
     nombre: 'InfoObras_Roma',
     isVisible: false,
     mouseInteractionAllowed: true,

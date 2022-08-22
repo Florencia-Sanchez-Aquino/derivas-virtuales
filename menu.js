@@ -306,14 +306,14 @@ function createSubmenuFiltros() {
           </ul>
         </div>
       </div>
-      <div class="recorridos-clearButton">
-      <h3>Deseleccionar todo</h3>
-      </div>
+
     </div>
   </div>
   `;
 }
-
+/* <div class="recorridos-clearButton">
+<h3>Deseleccionar todo</h3>
+</div> */
 
 function openFiltros(){
   const menuFiltros = document.getElementById('menu-de-filtros');

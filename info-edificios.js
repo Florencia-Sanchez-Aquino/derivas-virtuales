@@ -10,7 +10,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://islaflotante.com/'
     },
     imagen: {
       src: "./assets/img/museos/isla-flotante.jpg",
@@ -27,7 +27,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://www.bellasartes.gob.ar/'
     },
     imagen: {
       src: "./assets/img/museos/bellasArtes.jpg",
@@ -44,7 +44,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://artefundacionosde.com.ar/'
     },
     imagen: {
       src: "./assets/img/museos/fundacion-osde-sede-anterior.jpg",
@@ -61,7 +61,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://www.bellasartes.gob.ar/'
     },
     imagen: {
       src: "./assets/img/museos/fundacion-proa.jpg", 
@@ -78,7 +78,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'http://untref.edu.ar/muntref/es/museo-de-artes-visuales/'
     },
     imagen: {
       vertical: true,
@@ -96,7 +96,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://untref.edu.ar/muntref/es/centro-de-arte-contemporaneo/'
     },
     imagen: {
       src: "./assets/img/museos/MUNTREFCentrodeArte.jpg",
@@ -113,7 +113,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://www.malba.org.ar/'
     },
     imagen: {
       src: "./assets/img/museos/malba.jpg",
@@ -142,7 +142,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://www.coleccionfortabat.org.ar/'
     },
     imagen: {
       src: "./assets/img/museos/coleccion-de-arte-amalia-lacroze-de-fortabat.jpg",
@@ -159,7 +159,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://www.casarosada.gob.ar/la-casa-rosada/museo'
     },
     imagen: {
       src: "./assets/img/museos/museo-casa-rosada.jpg",
@@ -176,7 +176,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://cck.gob.ar/'
     },
     imagen: {
       src: "./assets/img/museos/centro-cultural-kirchner.jpg",
@@ -193,7 +193,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'http://www.centroculturalrecoleta.org/'
     },
     imagen: {
       vertical: true,
@@ -211,7 +211,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'http://conti.derhuman.jus.gov.ar/'
     },
     imagen: {
       src: "./assets/img/museos/centro-cultural-de-la-memoria-haroldo-conti.jpg",
@@ -228,7 +228,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://www.buenosaires.gob.ar/museos/museo-historico-cornelio-de-saavedra'
     },
     imagen: {
       src: "./assets/img/museos/museo-historico-cornelio-saavedra.jpg",
@@ -263,7 +263,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://www.fadu.uba.ar/'
     },
     imagen: {
       src: "./assets/img/museos/sala-de-exposiciones-fadu-ms.jpg",
@@ -280,7 +280,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://fola.com.ar/'
     },
     imagen: {
       src: "./assets/img/museos/fola.jpg",
@@ -297,7 +297,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://museomoderno.org/'
     },
     imagen: {
       src: "./assets/img/museos/museo-de-arte-moderno-de-buenos-aires.jpg",
@@ -314,7 +314,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://artefundacionosde.com.ar/'
     },
     imagen: {
       src: "./assets/img/museos/fundacion-osde-sede-actual.jpg",
@@ -331,7 +331,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://parquedelamemoria.org.ar/'
     },
     imagen: {
       src: "./assets/img/museos/parque-de-la-memoria-cb.jpg",
@@ -348,7 +348,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://rolfart.com.ar/'
     },
     imagen: {
       src: "./assets/img/museos/galeria-rolf.jpg",
@@ -365,7 +365,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://parquedelamemoria.org.ar/arte-sala-pays/'
     },
     imagen: {
       src: "./assets/img/museos/sala-pays.jpg",
@@ -382,7 +382,7 @@ const info = {
     },
     web: {
       sitioWeb: 'Sitio Oficial',
-      url: '#'
+      url: 'https://complejoteatral.gob.ar/#'
     },
     imagen: {
       src: "./assets/img/museos/teatro-san-martin.jpg",
@@ -570,6 +570,7 @@ const infoObras = {
     tipo: 'Dibujo',
     caracteristicas: {
       exposicion: 'Buenos Aires, a vista de pájaro: Jean Désiré Dulin',
+      curaduria:'Anonimo',
       museo: 'Museo Histórico Cornelio Saavedra',
       fecha: '1915'
     },
@@ -585,7 +586,8 @@ const infoObras = {
     titulo: 'Recuerdos superpuestos',
     tipo: 'Pintura',
     caracteristicas: {
-      exposicion: 'Colección del Museo Casa Rosada ',
+      exposicion: 'Colección del Museo Casa Rosada',
+      curaduria:'Anonimo',
       museo: 'Museo Casa Rosada',
       fecha: '1990'
     },
@@ -602,6 +604,7 @@ const infoObras = {
     tipo: 'Fotografías',
     caracteristicas: {
       exposicion: 'Diane Arbus. En el principio',
+      curaduria:'Jeff L. Rosenheim',
       museo: 'Museo de Arte Latinoamericano de Buenos Aires',
       fecha: '2017'
     },
@@ -618,6 +621,7 @@ const infoObras = {
     tipo: 'Instalación',
     caracteristicas: {
       exposicion: 'Perspectiva',
+      curaduria:'Agustín Pérez Rubio',
       museo: 'Museo de Arte Latinoamericano de Buenos Aires',
       fecha: '2004'
     },
@@ -634,6 +638,7 @@ const infoObras = {
     tipo: 'Fotografías',
     caracteristicas: {
       exposicion: 'Vivian Maier (1926 – 2009) – The Street Photographer',
+      curaduria:'Leila Makarius y Jorge Cometti',
       museo: 'FOLA. Fototeca Latinoamericana',
       fecha: '2017'
     },
@@ -650,7 +655,8 @@ const infoObras = {
     titulo: 'Roma',
     tipo: 'Película',
     caracteristicas: {
-      exposicion: '',
+      exposicion: 'Roma',
+      curaduria:'Anonimo',
       museo: 'Teatro Municipal General San Martín',
       fecha: '1972'
     },
@@ -667,6 +673,7 @@ const infoObras = {
     tipo: 'Videoinstalaciones e instalaciones fílmicas',
     caracteristicas: {
       exposicion: 'Operación fracaso y el sonido recobrado',
+      curaduria:'Equipo Sala PAyS',
       museo: 'Sala PAyS',
       fecha: '2015'
     },
@@ -683,6 +690,7 @@ const infoObras = {
     tipo: 'Fotografías',
     caracteristicas: {
       exposicion: 'Ausencia de sujeto. Festival de la Luz',
+      curaduria:'Diana Edkins y Julian Sander',
       museo: 'Centro Cultural Recoleta',
       fecha: '2014'
     },
@@ -694,11 +702,12 @@ const infoObras = {
   },
   'InfoExpo_EnNuestraPequeñaRegion': {
     subCategoria: 'Prácticas de archivo',
-    nombre: 'Agustín Pérez Rubio',
+    nombre: 'Voluspa Jarpa',
     titulo: 'En nuestra pequeña región de por acá',
     tipo: 'Instalaciones, videos y esculturas',
     caracteristicas: {
       exposicion: 'En nuestra pequeña región de por acá',
+      curaduria:'Agustín Pérez Rubio',
       museo: 'Museo de Arte Latinoamericano de Buenos Aires',
       fecha: '2016'
     },
@@ -716,6 +725,7 @@ const infoObras = {
     tipo: 'Instalaciones, esculturas y fotografías',
     caracteristicas: {
       exposicion: 'La herencia indócil de los espectros',
+      curaduria:'Fernando Davis',
       museo: 'Espacio de Arte Fundación Osde (sede actual)',
       fecha: '2019'
     },
@@ -733,11 +743,11 @@ const infoObras = {
     tipo: 'Pinturas, fotografías y esculturas',
     caracteristicas: {
       exposicion: 'Ninfas, serpientes, constelaciones. La teoría artística de Aby Warbug',
+      curaduria:'José Emilio Burucúa',
       museo: 'Museo Nacional de Bellas Artes',
       fecha: '2019'
     },
     imagen: {
-      vertical: true,
       src: "./assets/img/Obras/44.jpg",
       autor: `Antonelia Adosi`
     },
@@ -750,6 +760,7 @@ const infoObras = {
     tipo: 'Libros de artista y poemas visuales',
     caracteristicas: {
       exposicion: 'Porque ¡yo escribo!',
+      curaduria:'Agustín Pérez Rubio',
       museo: 'Museo de Arte Latinoamericano de Buenos Aires',
       fecha: '2017'
     },
@@ -766,6 +777,7 @@ const infoObras = {
     tipo: 'Piezas gráficas y libros de artista',
     caracteristicas: {
       exposicion: 'Edgardo Antonio Vigo: usina permanente de caos creativo. Obras 1953-1997',
+      curaduria:'Mamba y Centro de Arte Experimental Vigo de La Plata',
       museo: 'Museo de Arte Moderno de Buenos Aires',
       fecha: '2016'
     },
@@ -782,6 +794,7 @@ const infoObras = {
     tipo: 'Libros de artista y poemas visuales',
     caracteristicas: {
       exposicion: 'Poéticas Oblicuas',
+      curaduria:'Juan Carlos Romero y Fernando Davis',
       museo: 'Espacio de Arte Fundación Osde (sede anterior)',
       fecha: '2016'
     },
@@ -798,6 +811,7 @@ const infoObras = {
     tipo: 'Libros de artista e instalaciones',
     caracteristicas: {
       exposicion: 'Libros de artista. Ediciones expandidas',
+      curaduria:'Mariel Szlifman',
       museo: 'Salas de Exposición FADU',
       fecha: '2018'
     },
@@ -814,6 +828,7 @@ const infoObras = {
     tipo: 'Videos, fotografías y libros de artista',
     caracteristicas: {
       exposicion: 'Arqueóloga de sí misma',
+      curaduria:'',
       museo: 'Espacio de Arte Fundación Osde (sede anterior)',
       fecha: '2017'
     },
@@ -830,6 +845,7 @@ const infoObras = {
     tipo: 'Fotografías y videoinstalación',
     caracteristicas: {
       exposicion: 'El canto de Jano ',
+      curaduria:'Anonimo',
       museo: 'Isla Flotante (sede anterior)',
       fecha: '2015'
     },
@@ -846,6 +862,7 @@ const infoObras = {
     tipo: 'Videoinstalaciones',
     caracteristicas: {
       exposicion: 'Punto de partida',
+      curaduria:'Marcelo Dantas',
       museo: 'Sala PAyS',
       fecha: '2013'
     },
@@ -863,6 +880,7 @@ const infoObras = {
     tipo: 'Videoarte',
     caracteristicas: {
       exposicion: 'Ecos Simultaneos. Videoarte Coreano Contemporáneo',
+      curaduria:'Youngsil Sohn',
       museo: 'Colección de Arte Amalia Lacroze de Fortabat',
       fecha: '2014'
     },
@@ -879,6 +897,7 @@ const infoObras = {
     tipo: 'Instalación',
     caracteristicas: {
       exposicion: 'Muestra del Concurso de Arte y Tecnología 2018 del Fondo Nacional de las Artes',
+      curaduria:'Alejandro Schianchi, Mariela Yeregui y Raúl Federico Lacabanne',
       museo: 'Centro Cultural Kirchner',
       fecha: '2019'
     },
@@ -895,6 +914,7 @@ const infoObras = {
     tipo: 'Videoinstalaciones',
     caracteristicas: {
       exposicion: 'Estado de emergencia',
+      curaduria:'Anonimo',
       museo: 'Fundación Telefónica Movistar',
       fecha: '2014'
     },
@@ -911,6 +931,7 @@ const infoObras = {
     tipo: 'Instalación fílmica',
     caracteristicas: {
       exposicion: 'Clamor',
+      curaduria:'Anonimo',
       museo: 'Centro Cultural Recoleta',
       fecha: '2015'
     },
@@ -927,6 +948,7 @@ const infoObras = {
     tipo: 'Fotografías e instalaciones',
     caracteristicas: {
       exposicion: 'Imágenes expandidas',
+      curaduria:'Julio Fuks',
       museo: 'Centro Cultural Recoleta',
       fecha: '2017'
     },
@@ -943,6 +965,7 @@ const infoObras = {
     tipo: 'Instalaciones, videoinstalaciones y grabados',
     caracteristicas: {
       exposicion: 'Religión Catódica',
+      curaduria:'Jorge La Ferla',
       museo: 'Espacio de Arte Fundación Osde (sede anterior)',
       fecha: '2017'
     },
@@ -959,6 +982,7 @@ const infoObras = {
     tipo: 'Videoinstalaciones, esculturas y fotografías',
     caracteristicas: {
       exposicion: 'Nada está donde se cree',
+      curaduria:'Diana Wechsler',
       museo: 'MUNTREF. Centro de Arte Contemporáneo',
       fecha: '2014'
     },
@@ -976,6 +1000,7 @@ const infoObras = {
     tipo: 'Instalación mixta',
     caracteristicas: {
       exposicion: 'Premio UNTREF a las Artes Electrónicas',
+      curaduria:'Anonimo',
       museo: 'MUNTREF. Museo de Artes Visuales',
       fecha: '2016'
     },
@@ -992,6 +1017,7 @@ const infoObras = {
     tipo: 'Videoarte y videoinstalaciones',
     caracteristicas: {
       exposicion: 'Fuerza diagonal',
+      curaduria:'Jazmin Adler',
       museo: 'Rolf Art',
       fecha: '2019'
     },
@@ -1009,6 +1035,7 @@ const infoObras = {
     tipo: 'Fotografías',
     caracteristicas: {
       exposicion: 'Festival de la Luz 2016',
+      curaduria:'Anonimo',
       museo: 'Centro Cultural de la Memoria Haroldo Conti',
       fecha: '2016'
     },
@@ -1026,6 +1053,7 @@ const infoObras = {
     tipo: 'Dibujos',
     caracteristicas: {
       exposicion: 'El círculo caminaba tranquilo',
+      curaduria:'Victoria Noorthoorn',
       museo: 'Museo de Arte Moderno de Buenos Aires',
       fecha: '2014'
     },
@@ -1042,6 +1070,7 @@ const infoObras = {
     tipo: 'Fotografías',
     caracteristicas: {
       exposicion: 'Archivo Aldo Sessa. 1958 – 2018: 60 años de imágenes',
+      curaduria:'Victoria Noorthoorn',
       museo: 'Museo de Arte Moderno de Buenos Aires',
       fecha: '2018'
     },
@@ -1058,6 +1087,7 @@ const infoObras = {
     tipo: 'Fotografía e instalación',
     caracteristicas: {
       exposicion: 'Viceversa. "Vecina, turista, profesional y errante"',
+      curaduria:'Grupo Etcétera (Loreto Garín Guzmán y Federico Zukerfeld)',
       museo: 'Fundación Proa',
       fecha: '2016'
     },
@@ -1075,6 +1105,7 @@ const infoObras = {
     tipo: 'Instalación site specific',
     caracteristicas: {
       exposicion: 'Programa de Arte Público',
+      curaduria:'Anonimo',
       museo: 'Parque de la Memoria',
       fecha: '1999-2009'
     },
@@ -1091,6 +1122,7 @@ const infoObras = {
     tipo: 'Instalación site specific',
     caracteristicas: {
       exposicion: 'Programa de Arte Público',
+      curaduria:'Anonimo',
       museo: 'Parque de la Memoria',
       fecha: '1999-2010'
     },
@@ -1107,6 +1139,7 @@ const infoObras = {
     tipo: 'Mural',
     caracteristicas: {
       exposicion: 'Colección del Museo Casa Rosada ',
+      curaduria:'Anonimo',
       museo: 'Museo Casa Rosada',
       fecha: '1933'
     },
@@ -1124,6 +1157,7 @@ const infoObras = {
     tipo: 'Instalación',
     caracteristicas: {
       exposicion: 'Aquí mismo y ahora mismo',
+      curaduria:'Equipo Sala PAyS',
       museo: 'Sala PAyS',
       fecha: '1971-2018'
     },
@@ -1140,6 +1174,7 @@ const infoObras = {
     tipo: 'Instalaciones lumínicas',
     caracteristicas: {
       exposicion: 'Julio Le Parc. Un visionario',
+      curaduria:'Gabriela Urtiaga',
       museo: 'Centro Cultural Kirchner',
       fecha: '2019'
     },
@@ -1157,6 +1192,7 @@ const infoObras = {
     tipo: 'Videoinstalación',
     caracteristicas: {
       exposicion: 'Migraciones en el arte contemporáneo ',
+      curaduria:'Diana Wechsler',
       museo: 'MUNTREF. Centro de Arte Contemporáneo',
       fecha: '2015'
     },
@@ -1173,6 +1209,7 @@ const infoObras = {
     tipo: 'Instalación audiovisual mixta',
     caracteristicas: {
       exposicion: 'Intervención en La Salita',
+      curaduria:'Anonimo',
       museo: 'Espacio de Arte Fundación Osde (sede anterior)',
       fecha: '2014'
     },
@@ -1189,6 +1226,7 @@ const infoObras = {
     tipo: 'Videoinstalación',
     caracteristicas: {
       exposicion: 'Les visitants. Obras de la Colección Fondation Cartier (2018)',
+      curaduria:'Guillermo Kuitca',
       museo: 'Centro Cultural Kirchner',
       fecha: '2004-2015'
     },
@@ -1205,6 +1243,7 @@ const infoObras = {
     tipo: 'Fotografía',
     caracteristicas: {
       exposicion: 'Mundo Propio. Fotografía moderna argentina 1927-1962',
+      curaduria:'Facundo de Zuviría',
       museo: 'Museo de Arte Latinoamericano de Buenos Aires',
       fecha: '1927'
     },
@@ -1221,6 +1260,7 @@ const infoObras = {
     tipo: 'Fotografía',
     caracteristicas: {
       exposicion: 'Intenciones secretas',
+      curaduria:'Victoria Giraudo y Agustín Pérez Rubio',
       museo: 'Museo de Arte Latinoamericano de Buenos Aires',
       fecha: '1947'
     },
@@ -1238,6 +1278,7 @@ const infoObras = {
     tipo: 'Dibujos, escritos e instalaciones',
     caracteristicas: {
       exposicion: 'Louise Bourgeois: El retorno de lo reprimido',
+      curaduria:'Philip Larratt-Smith',
       museo: 'Fundación Proa',
       fecha: '2011'
     },
@@ -1254,6 +1295,7 @@ const infoObras = {
     tipo: 'Pinturas y fotografías',
     caracteristicas: {
       exposicion: 'Yo, nosotros, el arte',
+      curaduria:'Laura Malosetti Costa',
       museo: 'Espacio de Arte Fundación Osde (sede anterior)',
       fecha: '2014'
     },
@@ -1271,6 +1313,7 @@ const infoObras = {
     tipo: 'Dibujos, instalaciones y videos',
     caracteristicas: {
       exposicion: 'Joseph Beuys: Obras 1955-1985',
+      curaduria:'Silke Thomas y Rafael Raddi',
       museo: 'Fundación Proa',
       fecha: '2014'
     },
@@ -1287,6 +1330,7 @@ const infoObras = {
     tipo: 'Instalación audiovisual mixta',
     caracteristicas: {
       exposicion: 'Cuídese Mucho',
+      curaduria:'Christine Macel',
       museo: 'Centro Cultural Kirchner',
       fecha: '2015'
     },
@@ -1304,6 +1348,7 @@ const infoObras = {
     tipo: 'Instalación mixta',
     caracteristicas: {
       exposicion: 'Soberanía del uso ',
+      curaduria:'Federico Baeza y Sebastián Vidal Mackinson',
       museo: 'Espacio de Arte Fundación Osde (sede anterior)',
       fecha: '2014'
     },

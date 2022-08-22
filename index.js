@@ -20,6 +20,7 @@ function museos(name)  {
         <div class="text-container">
               <div class="title">
                 <h3 class="titulo-museos">${info[name]?.nombre.toUpperCase()}</h3>
+                <div class="linea-negra"></div>
                 <div class="programa-container programa-container-ver">
                   <p class="lugar-barrio">${info[name].lugar.barrio} ${info[name].lugar.ubicacion}</p>
                   <a class="sitio-web-museo" href="${info[name].web.url}" target="_blank">${info[name].web.sitioWeb} </a>
@@ -58,6 +59,7 @@ function museos(name)  {
           <p class="titulo-museos">
             ${info[name].nombre.toUpperCase()}
           </p>
+          <div class="linea-negra"></div>
           <div class="programa-container">
           <p class="lugar-barrio">${info[name].lugar.barrio} ${info[name].lugar.ubicacion}</p>
           <a class="sitio-web-museo" href="${info[name].web.url}" target="_blank">${info[name].web.sitioWeb} </a>
@@ -70,7 +72,6 @@ function museos(name)  {
         </div>
       </div>
       <div class="text">
-        <img src="./assets/img/iconos/miscelaneas-fichas-museos-01.svg" class="image-text-museos"/>
         <p>${info[name].texto}</p>
       </div>
     </div>`
@@ -97,30 +98,30 @@ function obrasinfo(name)  {
       <div class="info-vertical">
         <div class="text-container">
           <div class="title">
-            <h3 class="titulo-museos titulo-obras-ver">${infoObras[name].titulo.toUpperCase()}</h3>
-            <p class="tipo-obra tipo-obra-ver">${infoObras[name].tipo.toUpperCase()}</p>
-            <div class="tipo-obra-info">
-              <p class="caracteristicas exposicion">${infoObras[name].caracteristicas.exposicion.toUpperCase()}</p>
-              <p class="caracteristicas museo">${infoObras[name].caracteristicas.museo.toUpperCase()}</p>
-              <p class="caracteristicas fecha">${infoObras[name].caracteristicas.fecha}</p>
+            <p class="autor-obra">
+              ${infoObras[name].nombre}
+            </p>
+            <h3 class="titulo-obras">${infoObras[name].titulo.toUpperCase()}</h3>
+            <p class="museo-fecha">${infoObras[name].caracteristicas.museo.toUpperCase()}, ${infoObras[name].caracteristicas.fecha}.</p>
+            <div class="linea-negra"></div>
+            <p class="tipo-obra">${infoObras[name].tipo}</p>
+            <p class="curaduria-expo">Curador/a: ${infoObras[name].caracteristicas.curaduria}</p>
             </div>
-          </div>
           <div class="text-ver">
             <div class="imagen-texto-container-ver">
-              <img src="./assets/img/iconos/imagen-texto-obras.svg" class="image-text-obras"/>
               <p>${infoObras[name].texto}</p>
             </div>
           </div>
         </div>
         <div class="image-button-container">
-          <div class="image-container" style="background-image: url(${infoObras[name].imagen.src})"></div>
+        <img class="imagen-expo" src= "${infoObras[name].imagen.src}" alt="image">
           <p class="autor">Ph. ${infoObras[name].imagen.autor}</p>
         </div>
       </div>
     </div>` 
   } else {
     newHtml.innerHTML += 
-    `<div class="modal-container">
+    `<div class="modal-container modal-obras">
 
       <div class="top-obras-2">  
             
@@ -135,23 +136,20 @@ function obrasinfo(name)  {
       <div class="info">
         <div class="info-text info-text-obras">
           <p class="autor-obra">
-            ${infoObras[name].nombre.toUpperCase()}
+            ${infoObras[name].nombre}
           </p>
-          <h3 class="titulo-museos titulo-obras">${infoObras[name].titulo.toUpperCase()}</h3>
-          <p class="tipo-obra">${infoObras[name].tipo.toUpperCase()}</p>
-          <div>
-            <p class="caracteristicas exposicion">${infoObras[name].caracteristicas.exposicion.toUpperCase()}</p>
-            <p class="caracteristicas museo">${infoObras[name].caracteristicas.museo.toUpperCase()}</p>
-            <p class="caracteristicas fecha">${infoObras[name].caracteristicas.fecha}</p>
-          </div>
+          <h3 class="titulo-obras">${infoObras[name].titulo.toUpperCase()}</h3>
+          <p class="museo-fecha">${infoObras[name].caracteristicas.museo.toUpperCase()}, ${infoObras[name].caracteristicas.fecha}.</p>
+          <div class="linea-negra"></div>
+          <p class="tipo-obra">${infoObras[name].tipo}</p>
+            <p class="curaduria-expo">Curador/a: ${infoObras[name].caracteristicas.curaduria}</p>
         </div>
         <div class="imagen-container">
-          <div class="imagen-museo" style="background-image: url(${infoObras[name].imagen.src})"></div>
+          <img class="imagen-expo" src= "${infoObras[name].imagen.src}" alt="image">
           <p class="autor">Ph. ${infoObras[name].imagen.autor}</p>
         </div>
       </div>
       <div class="text">
-        <img src="./assets/img/iconos/imagen-texto-obras.svg" class="image-text-obras"/>
         <p>${infoObras[name].texto}</p>
       </div>
     </div>`
@@ -163,7 +161,7 @@ function recorridosInfo(name) {
   const newHtml = document.createElement('div');
   newHtml.classList.add("modal");
   if(infoRecorridos[name]?.imagen.vertical) {
-    newHtml.innerHTML += `<div class="modal-container">
+    newHtml.innerHTML += `<div class="modal-container modal-recorridos">
 
       <div class="top-recorridos-1">  
               
@@ -179,20 +177,19 @@ function recorridosInfo(name) {
         <div class="text-container">
           <div class="title">
             <h3 class="titulo-museos titulo-recorridos">${infoRecorridos[name]?.subCategoria.toUpperCase()}</h3>
+            <div class="linea-negra"></div>
             <div class="container-info-recorridos-ver">
-              <img src="./assets/img/iconos/imagen-recorridos-text.svg"/>
               <p class="tipo-recorrido">${infoRecorridos[name].zona}</p>
             </div>
           </div>
           <div class="text-ver">
             <div class="imagen-texto-container-ver">
-              <img src="./assets/img/iconos/imagen-texto-recorrido.svg" class="image-text-recorridos"/>
               <p>${infoRecorridos[name].texto}</p>
             </div>
           </div>
         </div>
         <div class="image-button-container">
-          <div class="image-container" style="background-image: url(${infoRecorridos[name].imagen.src})"></div>
+        <img class="imagen-expo" src= "${infoRecorridos[name].imagen.src}" alt="image">
           <p class="autor">Ph. ${infoRecorridos[name].imagen.autor}</p>
         </div>
       </div>
@@ -201,32 +198,31 @@ function recorridosInfo(name) {
     newHtml.innerHTML += 
     `<div class="modal-container modal-recorridos">
 
-      <div class="top-recorridos-2">  
-                
-      <p class="categoria-museo categoria-recorrido">${infoRecorridos[name].subCategoria.toUpperCase()}</p>
+    <div class="top-recorridos-2">  
+              
+    <p class="categoria-museo categoria-museo-ver">${infoRecorridos[name]?.subCategoria.toUpperCase()}</p>
 
-        <div class="button-recorridos-2">
-          <button type="button" onclick="onClose()"></button>
-        </div>
-
+      <div class="button-recorridos-2">
+        <button type="button" onclick="onClose()"></button>
       </div>
+
+    </div>
 
       <div class="info">
         <div class="info-text">
           <h3 class="titulo-museos titulo-recorridos">${infoRecorridos[name]?.subCategoria.toUpperCase()}</h3>
+          <div class="linea-negra"></div>
           <div class="container-info-recorridos">
-            <img src="./assets/img/iconos/imagen-recorridos-text.svg"/>
             <p class="tipo-recorrido">${infoRecorridos[name].zona}</p>
           </div>
         </div>
         <div class="imagen-container">
-          <div class="imagen-museo" style="background-image: url(${infoRecorridos[name].imagen.src})"></div>
+        <img class="imagen-expo" src= "${infoRecorridos[name].imagen.src}">
           <p class="autor">Ph. ${infoRecorridos[name].imagen.autor}</p>
         </div>
       </div>
       <div class="text">
         <div class="imagen-texto-container-rec">
-          <img src="./assets/img/iconos/imagen-texto-recorrido.svg" class="image-text-recorridos"/>
           <p>${infoRecorridos[name].texto}</p>
         </div>
       </div>
